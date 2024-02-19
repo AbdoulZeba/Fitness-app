@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Navigation</title>
+    <style>
+        .navbar {
+            background-color: #333;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+        
+        ul {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        li {
+            padding-top: 2px;
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        
+        .workout-generator {
+            text-align: center;
+        }
+        
+        select {
+            width: 400px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: azure;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.05rem;
+            color: black;
+            transition: 500ms ease-in-out;
+        }
+        
+        option {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="http://localhost:3000/home">Home</a></li>
+            <li><a href="#">My Workouts</a></li>
+            <li><a href="http://localhost:3000/login">Logout</a></li>
+        </ul>
+    </div>
+    <div class="workout-generator">
+        <h1>
+            Generate new workouts below
+        </h1>
+        <h3>1.What is your main fitness goal?</h3>
+        <select name="selection" id="selection">
+            <option value="A">Build Muscle & gain weight</option>
+            <option value="A">Reduce body Weight</option>
+            <option value="A">Increase endurance and stamina</option>
+            <option value="A">Increase Strength</option>
+            <option value="A">Felxibiliy</option>
+            <option value="A">Power Lifting </option>
+            <option value="A">Increase Strength</option>
+        </select><br>
+
+        <h3>2. What is your workout difficulty level?</h3>
+        <select name="selection" id="selection">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select><br>
+
+        <select name="selection" id="selection">
+            <option value="H">ddsdsd</option>
+            <option value="ddffd">Sri Lanka</option>
+            <option value="ererr">Australia</option>
+        </select>
+        <!-- <a style="color: #333;" href="#">See saved workouts</a> -->
+    </div>
+</body>
+
+</html>
